@@ -1,0 +1,359 @@
+#app {
+  max-width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-image: url("https://res.cloudinary.com/pillario/image/upload/theme-background/warp-static");
+  position: absolute;
+  height: auto;
+}
+a {
+  text-decoration: none !important;
+  color: white !important;
+}
+.share {
+  background-color: white;
+  width: 48px;
+  padding: 10px 0;
+  border-radius: 25px;
+  text-align: center;
+}
+#appContentMain {
+  max-width: 640px;
+  margin: auto;
+  margin-top: 10px;
+}
+.header {
+  position: sticky;
+  top: 0;
+  margin-top: 0px;
+  padding-top: 4px;
+  display: flex;
+  justify-content: space-between;
+}
+.share-btn {
+  border: none;
+  background-color: white;
+}
+.button {
+  background-color: white;
+  border-radius: 23px;
+  text-align: center;
+  padding: 3px 20px;
+}
+.heart {
+  margin: 5px;
+  color: blue;
+}
+.btn-text {
+  color: blue;
+  font-weight: bold;
+}
+.ceo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  margin-top: -39px;
+}
+.ceo img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.socials ul {
+  color: white;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.socials li {
+  margin: auto;
+  font-size: 1.2rem;
+  border: 2px solid white;
+  padding: 6px 11px;
+  border-radius: 100%;
+}
+.socials li:hover {
+  transform: translateY(-2px);
+}
+.header-part h5 {
+  color: white;
+  text-align: center;
+  margin: 30px;
+}
+.verified {
+  color: blue;
+}
+.medium-box {
+  color: white;
+  padding: 2px;
+  /* width: 100%; */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 13px;
+}
+.m-box-img {
+  width: 37.33%;
+  height: 25vh;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  position: relative;
+  border-radius: 3px;
+}
+.m-box-img img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.m-box-content {
+  width: 100%;
+  padding: 22px;
+}
+.m-box-btn {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 25px;
+  color: black;
+}
+.m-box-btn:hover {
+  box-shadow: 4px 4px rgba(255, 255, 255, 0.669);
+}
+.m-box-btn i {
+  color: black;
+}
+.s-box {
+  width: 100%;
+  text-align: center;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+.s-box a {
+  text-decoration: none !important;
+  color: white !important;
+}
+.s-main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.s-box-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 12px;
+}
+
+.form-box {
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+.form-text {
+  text-align: center;
+  color: white !important;
+}
+.input-content {
+  color: white !important;
+  width: 90%;
+  margin: auto;
+  margin: 2px;
+}
+.mail input {
+  color: white !important;
+  width: 100%;
+  background-color: black;
+  margin-bottom: 8px;
+  height: 3rem;
+  border: 1px solid white;
+  border-radius: 8px;
+  padding: 12px;
+}
+.phone input {
+  color: white !important;
+  width: 100%;
+  background-color: black;
+  height: 3rem;
+  border: 1px solid white;
+  border-radius: 8px;
+  padding: 12px;
+}
+.radio-btn {
+  /* width: 100%; */
+  margin: 10px;
+  display: flex;
+}
+.radio-btn div {
+  padding: 8px;
+}
+.submit-btn input {
+  border-radius: 10px;
+  padding: 10px;
+  width: 150%;
+  background-color: white;
+}
+.request-box {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 10px;
+  /* padding-top: 10px; */
+}
+.request-box-content {
+  width: 43%;
+  padding-top: 10px;
+}
+.request-box p {
+  font-size: 0.75rem;
+}
+.request-btn button {
+  border: none;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  /* width: 120%; */
+  /* margin: 2px; */
+}
+.request-btn button:hover {
+  box-shadow: 4px 3px rgba(255, 255, 255, 0.669);
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+  margin-top: 50px;
+}
+.logo {
+  font-size: 2rem;
+}
+.expand-box {
+  width: 100%;
+  border: 2px solid white;
+  border-radius: 10px;
+  /* height: 50vh; */
+}
+.expand-header {
+  width: 100%;
+  border-radius: 10px;
+  background-color: black;
+  color: white !important;
+  height: 10vh;
+}
+.expand-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.frame {
+  width: 100%;
+  height: 39.4vh;
+  display: block;
+}
+.pop-header {
+  background-color: rgba(0, 0, 0, 0.43);
+  backdrop-filter: blur(20.5px);
+}
+
+.pop-header {
+  background-color: rgba(0, 0, 0, 0.43);
+}
+.pop-img {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pop-wrap {
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pop-img img {
+  margin: 5px;
+  width: 20%;
+  border-radius: 100%;
+}
+.pop-input input {
+  width: 80%;
+  background-color: rgba(127, 255, 212, 0.395);
+  border-radius: 5px;
+  margin: 2px;
+  height: 5vh;
+}
+.pop-btn {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+.pop-btn button {
+  color: white;
+  margin: 3px;
+  width: 80%;
+  background-color: rgb(9, 3, 47);
+  border: none;
+  border-radius: 5px;
+  height: 6vh;
+}
+.main-head {
+  color: rgba(0, 0, 255, 0.806);
+  text-align: center;
+  margin: 0 5px;
+}
+.pop-list li {
+  list-style: none;
+}
+
+.pop-price h4 {
+  background-color: rgba(0, 255, 255, 0.413);
+  text-align: center;
+}
+.bk-gray {
+  width: 100%;
+  background-color: rgba(128, 128, 128, 0.307);
+}
+.pop-details {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+.req-input input {
+  width: 100%;
+  margin: 3px;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 2px 6px;
+}
+.payment-btn button {
+  width: 100%;
+  margin: 2px;
+  margin-top: 5px;
+  height: 6vh;
+  border: none;
+  border-radius: 10px;
+}
+.pay1 {
+  background: #131a2c;
+  color: white;
+}
+.pay2 {
+  background-color: #33ddb3;
+  color: black;
+}
